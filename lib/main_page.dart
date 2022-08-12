@@ -93,7 +93,7 @@ class _pageState extends State<page> {
                     ),
                   ],
                 ),
-                //image insertion part
+                //image1 insertion part
                 Container(
                   width: 230,
                   margin: const EdgeInsets.all(0),
@@ -105,6 +105,7 @@ class _pageState extends State<page> {
                   ),
                 ),
                 //addition and subtraction of items part
+                //item changer
                 Center(
                   child: Padding(
                     padding: const EdgeInsets.all(2.0),
@@ -223,7 +224,7 @@ class _pageState extends State<page> {
                     ),
                   ),
                 ),
-                //quantity modifier
+                //item changer
                 Center(
                   child: Padding(
                     padding: const EdgeInsets.all(2.0),
@@ -390,3 +391,20 @@ class _pageState extends State<page> {
     );
   }
 }
+
+
+/*
+ child: Column(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(0),
+                  child: IconButton(
+                    padding: const EdgeInsets.all(0),
+                    //alignment: Alignment.topLeft,
+                    icon: (_isFavourited
+                        ? const Icon(Icons.favorite)
+                        : const Icon(Icons.favorite_border)),
+                    color: Colors.red,
+                    onPressed: _toggleFavourtie,
+                  ),
+*/
