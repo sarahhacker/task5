@@ -13,12 +13,12 @@ int add1 = 0;
 int add2 = 0;
 int add3 = 0;
 
-//for the pressing of the favourite sign
+//for the pressing of the favourite sign each
 bool _isfavourited1 = false;
 bool _isfavourited2 = false;
 bool _isfavourited3 = false;
 
-//for the favourite signs
+//for the favourite sign in 3 boxes
 Color IconA = Colors.white;
 Color IconB = Colors.white;
 Color IconC = Colors.white;

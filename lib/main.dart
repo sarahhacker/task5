@@ -19,3 +19,16 @@ class MyApp extends StatelessWidget {
         home: const page());
   }
 }
+/*
+bool _isFavourited = false;
+void _toggleFavourtie() {
+
+  setState() {
+    if (_isFavourited) {
+      _isFavourited = false;
+    } else {
+      _isFavourited = true;
+    }
+  }
+}
+*/
